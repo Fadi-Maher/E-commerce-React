@@ -52,12 +52,12 @@ const Register = () => {
   });
 
   return (
-    <div className="max-w-md mx-auto p-4 border mt-3">
-      <h1 className="text-2xl font-bold mb-4">Register</h1>
-      <form onSubmit={formik.handleSubmit} className="space-y-4">
+    <div className="max-w-md mx-auto p-4 border mt-3 mb-2">
+      <h1 className="text-2xl font-bold text-white mb-4">Register</h1>
+      <form onSubmit={formik.handleSubmit} className="space-y-4 ">
         {/* Name Field */}
-        <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-700">
+        <div >
+          <label htmlFor="name" className="block text-sm font-medium  text-white">
             Name
           </label>
           <input
@@ -76,7 +76,7 @@ const Register = () => {
 
         {/* Phone Field */}
         <div>
-          <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="phone" className="block text-sm font-medium text-white">
             Phone Number
           </label>
           <input
@@ -95,7 +95,7 @@ const Register = () => {
 
         {/* Email Field */}
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="email" className="block text-sm font-medium text-white">
             Email
           </label>
           <input
@@ -114,7 +114,7 @@ const Register = () => {
 
         {/* Password Field */}
         <div>
-          <label htmlFor="password" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="password" className="block text-sm font-medium text-white">
             Password
           </label>
           <input
@@ -133,7 +133,7 @@ const Register = () => {
 
         {/* Confirm Password Field */}
         <div>
-          <label htmlFor="rePassword" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="rePassword" className="block text-sm font-medium text-white">
             Confirm Password
           </label>
           <input
