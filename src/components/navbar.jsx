@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div>
       {userToken !== null ? (
-        <nav className="bg-slate-950 items-center fixed top-0 w-full z-10 shadow">
+        <nav className="bg-slate-900 items-center fixed top-0 w-full z-10 shadow">
           <div className="mx-auto max-w-7xl px-1 sm:px-6 lg:px-4 items-center ml-0">
             <div className="  flex h-16 items-center justify-between">
               <div className="flex items-center justify-center sm:items-stretch sm:justify-start">
