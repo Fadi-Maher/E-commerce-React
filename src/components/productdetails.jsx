@@ -1,6 +1,5 @@
  import axios from "axios"
-import { useEffect } from "react"
-import { useQuery } from "react-query"
+ import { useQuery } from "react-query"
 import { useParams } from "react-router-dom"
 import { ColorRing } from "react-loader-spinner"
 import { FcRating } from "react-icons/fc"
