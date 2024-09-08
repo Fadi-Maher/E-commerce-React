@@ -8,7 +8,7 @@ import Register from './components/register';
 import Products from './components/products';
 import NotFound from './components/notFound';
 import Brands from './components/brands';
-import ProductDetails from './components/productDetails';
+import ProductDetails from './components/productdetails';
 import {Provider} from "react-redux"
 import { store } from './Redux/store';
 import ProtectedRoute from './components/protectedRoute';
