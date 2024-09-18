@@ -9,7 +9,7 @@ const {onlinePayment , cartId} = useContext(cartContext)
 
   async  function handleSubmitAddress ( values){
         const response = await onlinePayment( cartId , 'http://localhost:5173', values)
-        // console.log(response.data.session.url)
+      //  console.log(response.data.session.url) 
         window.location.href=response.data.session.url;
       }
 
